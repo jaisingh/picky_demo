@@ -1,0 +1,41 @@
+I, [2015-05-11T07:30:55.961189 #19070]  INFO -- : Refreshing Gem list
+I, [2015-05-11T07:30:56.215511 #19070]  INFO -- : listening on addr=0.0.0.0:8080 fd=25
+I, [2015-05-11T07:30:56.215680 #19070]  INFO -- : worker=0 spawning...
+I, [2015-05-11T07:30:56.216851 #19070]  INFO -- : worker=1 spawning...
+I, [2015-05-11T07:30:56.218777 #19071]  INFO -- : worker=0 spawned pid=19071
+I, [2015-05-11T07:30:56.221704 #19071]  INFO -- : worker=0 ready
+I, [2015-05-11T07:30:56.223047 #19070]  INFO -- : worker=2 spawning...
+I, [2015-05-11T07:30:56.224700 #19072]  INFO -- : worker=1 spawned pid=19072
+I, [2015-05-11T07:30:56.227757 #19072]  INFO -- : worker=1 ready
+I, [2015-05-11T07:30:56.228759 #19070]  INFO -- : master process ready
+I, [2015-05-11T07:30:56.230596 #19073]  INFO -- : worker=2 spawned pid=19073
+I, [2015-05-11T07:30:56.233665 #19073]  INFO -- : worker=2 ready
+127.0.0.1 - - [11/May/2015:07:31:18 -0400] "GET / HTTP/1.1" 404 501 0.0283
+127.0.0.1 - - [11/May/2015:07:31:18 -0400] "GET /__sinatra__/404.png HTTP/1.1" 200 18893 0.0527
+127.0.0.1 - - [11/May/2015:07:31:19 -0400] "GET /favicon.ico HTTP/1.1" 404 512 0.0280
+127.0.0.1 - - [11/May/2015:07:31:22 -0400] "GET /index HTTP/1.1" 404 506 0.0023
+127.0.0.1 - - [11/May/2015:07:31:29 -0400] "GET /books HTTP/1.1" 200 58 0.0432
+127.0.0.1 - - [11/May/2015:07:31:43 -0400] "GET /books?query=turing HTTP/1.1" 200 110 0.1108
+127.0.0.1 - - [11/May/2015:07:31:51 -0400] "GET /books/index HTTP/1.1" 404 517 0.0020
+127.0.0.1 - - [11/May/2015:07:31:51 -0400] "GET /__sinatra__/404.png HTTP/1.1" 304 - 0.0016
+127.0.0.1 - - [11/May/2015:07:31:58 -0400] "GET /books?index HTTP/1.1" 200 58 0.0438
+I, [2015-05-11T07:35:50.929798 #19070]  INFO -- : reaped #<Process::Status: pid 19073 exit 0> worker=2
+I, [2015-05-11T07:35:50.929927 #19070]  INFO -- : reaped #<Process::Status: pid 19072 exit 0> worker=1
+I, [2015-05-11T07:35:50.929997 #19070]  INFO -- : reaped #<Process::Status: pid 19071 exit 0> worker=0
+I, [2015-05-11T07:35:50.930270 #19070]  INFO -- : master complete
+I, [2015-05-11T09:04:22.854785 #19652]  INFO -- : Refreshing Gem list
+I, [2015-05-11T09:04:23.391251 #19652]  INFO -- : listening on addr=0.0.0.0:8080 fd=22
+I, [2015-05-11T09:04:23.392113 #19652]  INFO -- : worker=0 spawning...
+I, [2015-05-11T09:04:23.393295 #19652]  INFO -- : worker=1 spawning...
+I, [2015-05-11T09:04:23.394463 #19653]  INFO -- : worker=0 spawned pid=19653
+I, [2015-05-11T09:04:23.395016 #19654]  INFO -- : worker=1 spawned pid=19654
+I, [2015-05-11T09:04:23.395563 #19652]  INFO -- : worker=2 spawning...
+I, [2015-05-11T09:04:23.397834 #19653]  INFO -- : worker=0 ready
+I, [2015-05-11T09:04:23.397834 #19654]  INFO -- : worker=1 ready
+I, [2015-05-11T09:04:23.398946 #19652]  INFO -- : master process ready
+I, [2015-05-11T09:04:23.400159 #19655]  INFO -- : worker=2 spawned pid=19655
+I, [2015-05-11T09:04:23.403214 #19655]  INFO -- : worker=2 ready
+I, [2015-05-11T09:04:27.343132 #19652]  INFO -- : reaped #<Process::Status: pid 19655 exit 0> worker=2
+I, [2015-05-11T09:04:27.343266 #19652]  INFO -- : reaped #<Process::Status: pid 19654 exit 0> worker=1
+I, [2015-05-11T09:04:27.343336 #19652]  INFO -- : reaped #<Process::Status: pid 19653 exit 0> worker=0
+I, [2015-05-11T09:04:27.344046 #19652]  INFO -- : master complete
